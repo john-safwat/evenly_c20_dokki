@@ -1,6 +1,7 @@
 import 'package:evently_c20_dokki/core/config/app_config.dart';
 import 'package:evently_c20_dokki/core/l10n/app_localizations.dart';
 import 'package:evently_c20_dokki/core/theme/app_colors.dart';
+import 'package:evently_c20_dokki/ui/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -106,7 +107,15 @@ class _SetupScreenState extends State<SetupScreen> {
                   ),
                 ],
               ),
-              FilledButton(onPressed: () {}, child: Text(locale.letsStart)),
+              FilledButton(
+                onPressed: () {
+                  Navigator.pushReplacementNamed(
+                    context,
+                    LoginScreen.routeName,
+                  );
+                },
+                child: Text(locale.letsStart),
+              ),
             ],
           ),
         ),

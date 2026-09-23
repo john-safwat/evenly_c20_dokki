@@ -29,4 +29,78 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get letsStart => 'Let’s start';
+
+  @override
+  String get loginToYourAccount => 'Login to your account';
+
+  @override
+  String get createYourAccount => 'Create your account';
+
+  @override
+  String get forgetPasswordTitle => 'Forget Password';
+
+  @override
+  String get enterYourName => 'Enter your name';
+
+  @override
+  String get enterYourEmail => 'Enter your email';
+
+  @override
+  String get enterYourPassword => 'Enter your password';
+
+  @override
+  String get confirmYourPassword => 'Confirm your password';
+
+  @override
+  String get forgetPasswordQuestion => 'Forget Password?';
+
+  @override
+  String get login => 'Login';
+
+  @override
+  String get signUp => 'Sign up';
+
+  @override
+  String get dontHaveAccount => 'Don\'t have an account ?';
+
+  @override
+  String get alreadyHaveAccount => 'Already have an account?';
+
+  @override
+  String get or => 'Or';
+
+  @override
+  String get loginWithGoogle => 'Login with Google';
+
+  @override
+  String get signUpWithGoogle => 'Sign up with Google';
+
+  @override
+  String get resetPassword => 'Reset password';
+
+  @override
+  String get nameRequired => 'Name is required';
+
+  @override
+  String get invalidNameFormat =>
+      'Please enter a valid name (letters and spaces only)';
+
+  @override
+  String get emailRequired => 'Email is required';
+
+  @override
+  String get invalidEmailFormat => 'Please enter a valid email address';
+
+  @override
+  String get passwordRequired => 'Password is required';
+
+  @override
+  String get passwordInvalid =>
+      'Password must be at least 8 characters and include uppercase, lowercase, number, and special character';
+
+  @override
+  String get confirmPasswordRequired => 'Please confirm your password';
+
+  @override
+  String get passwordConfirmationMismatch => 'Passwords do not match';
 }

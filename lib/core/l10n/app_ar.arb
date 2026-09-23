@@ -6,5 +6,32 @@
   "english": "الإنجليزية",
   "arabic": "العربية",
   "theme": "المظهر",
-  "letsStart": "لنبدأ"
+  "letsStart": "لنبدأ",
+  "loginToYourAccount": "تسجيل الدخول إلى حسابك",
+  "createYourAccount": "إنشاء حسابك",
+  "forgetPasswordTitle": "نسيت كلمة المرور",
+  "enterYourName": "أدخل اسمك",
+  "enterYourEmail": "أدخل بريدك الإلكتروني",
+  "enterYourPassword": "أدخل كلمة المرور",
+  "confirmYourPassword": "تأكيد كلمة المرور",
+  "forgetPasswordQuestion": "هل نسيت كلمة المرور؟",
+  "login": "تسجيل الدخول",
+  "signUp": "إنشاء حساب",
+  "dontHaveAccount": "ليس لديك حساب؟",
+  "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+  "or": "أو",
+  "loginWithGoogle": "تسجيل الدخول عبر Google",
+  "signUpWithGoogle": "إنشاء حساب عبر Google",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "nameRequired": "الاسم مطلوب",
+  "invalidNameFormat": "يرجى إدخال اسم صحيح (حروف ومسافات فقط)",
+
+  "emailRequired": "البريد الإلكتروني مطلوب",
+  "invalidEmailFormat": "يرجى إدخال بريد إلكتروني صحيح",
+
+  "passwordRequired": "كلمة المرور مطلوبة",
+  "passwordInvalid": "يجب ألا تقل كلمة المرور عن 8 أحرف وتحتوي على حرف كبير وحرف صغير ورقم ورمز خاص",
+
+  "confirmPasswordRequired": "يرجى تأكيد كلمة المرور",
+  "passwordConfirmationMismatch": "كلمتا المرور غير متطابقتين"
 }

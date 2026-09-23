@@ -6,5 +6,33 @@
   "english": "English",
   "arabic": "Arabic",
   "theme": "Theme",
-  "letsStart": "Let’s start"
+  "letsStart": "Let’s start",
+  "loginToYourAccount": "Login to your account",
+  "createYourAccount": "Create your account",
+  "forgetPasswordTitle": "Forget Password",
+  "enterYourName": "Enter your name",
+  "enterYourEmail": "Enter your email",
+  "enterYourPassword": "Enter your password",
+  "confirmYourPassword": "Confirm your password",
+  "forgetPasswordQuestion": "Forget Password?",
+  "login": "Login",
+  "signUp": "Sign up",
+  "dontHaveAccount": "Don't have an account ?",
+  "alreadyHaveAccount": "Already have an account?",
+  "or": "Or",
+  "loginWithGoogle": "Login with Google",
+  "signUpWithGoogle": "Sign up with Google",
+  "resetPassword": "Reset password",
+
+  "nameRequired": "Name is required",
+  "invalidNameFormat": "Please enter a valid name (letters and spaces only)",
+
+  "emailRequired": "Email is required",
+  "invalidEmailFormat": "Please enter a valid email address",
+
+  "passwordRequired": "Password is required",
+  "passwordInvalid": "Password must be at least 8 characters and include uppercase, lowercase, number, and special character",
+
+  "confirmPasswordRequired": "Please confirm your password",
+  "passwordConfirmationMismatch": "Passwords do not match"
 }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   AppColors appColors;
+
   AppTheme(this.appColors);
 
   ThemeData get theme => ThemeData(
@@ -26,18 +27,55 @@ class AppTheme {
       elevation: 0,
     ),
     scaffoldBackgroundColor: appColors.backgroundColor,
+    inputDecorationTheme: InputDecorationThemeData(
+      filled: true,
+      fillColor: appColors.inputColor,
+      contentPadding: EdgeInsets.all(16),
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide.none,
+      ),
+      prefixIconColor: appColors.mainTextColor,
+      suffixIconColor: appColors.mainTextColor,
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide(width: 1, color: appColors.strokeColor),
+      ),
+      disabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide(width: 1, color: appColors.strokeColor),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide(width: 1, color: appColors.strokeColor),
+      ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide(width: 1, color: appColors.errorColor),
+      ),
+      focusedErrorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide(width: 1, color: appColors.errorColor),
+      ),
+    ),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         padding: EdgeInsets.all(16),
         minimumSize: Size(double.infinity, 56),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-        ),
-        textStyle: TextStyle(
-          fontSize: 16,
-          fontWeight: .bold
-        )
-      )
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        textStyle: TextStyle(fontSize: 16, fontWeight: .bold),
+        foregroundColor: Colors.white
+      ),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+          padding: EdgeInsets.all(16),
+          minimumSize: Size(double.infinity, 56),
+          backgroundColor: appColors.mainColor.withAlpha(16),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+          textStyle: TextStyle(fontSize: 16, fontWeight: .bold),
+          foregroundColor: appColors.mainColor
+      ),
     ),
     textTheme: TextTheme(
       displayLarge: TextStyle(color: appColors.mainTextColor),
@@ -60,6 +98,6 @@ class AppTheme {
       backgroundColor: appColors.mainColor,
       foregroundColor: Colors.white,
       shape: CircleBorder(),
-    )
+    ),
   );
 }
