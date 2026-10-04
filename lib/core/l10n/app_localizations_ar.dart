@@ -102,4 +102,13 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get passwordConfirmationMismatch => 'كلمتا المرور غير متطابقتين';
+
+  @override
+  String get home => 'الرئيسيه';
+
+  @override
+  String get favorite => 'المفضل';
+
+  @override
+  String get profile => 'الملف';
 }

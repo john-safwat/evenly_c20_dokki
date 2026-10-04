@@ -34,5 +34,8 @@
   "passwordInvalid": "Password must be at least 8 characters and include uppercase, lowercase, number, and special character",
 
   "confirmPasswordRequired": "Please confirm your password",
-  "passwordConfirmationMismatch": "Passwords do not match"
+  "passwordConfirmationMismatch": "Passwords do not match",
+  "home" : "Home",
+  "favorite" : "Favorite",
+  "profile" : "Profile"
 }

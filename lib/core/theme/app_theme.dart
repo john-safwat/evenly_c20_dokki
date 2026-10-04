@@ -77,6 +77,14 @@ class AppTheme {
           foregroundColor: appColors.mainColor
       ),
     ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      backgroundColor: appColors.backgroundColor,
+      selectedItemColor: appColors.mainColor,
+      unselectedItemColor: appColors.mainTextColor,
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
+      type: BottomNavigationBarType.fixed,
+    ),
     textTheme: TextTheme(
       displayLarge: TextStyle(color: appColors.mainTextColor),
       displayMedium: TextStyle(color: appColors.mainTextColor),

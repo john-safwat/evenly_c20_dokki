@@ -25,4 +25,7 @@ class AppConfig extends ChangeNotifier {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
     sharedPreferences.setString("locale", lang);
   }
+
+  bool get isDarkMode => themeMode == ThemeMode.dark;
+  bool get isEn => locale == "en";
 }

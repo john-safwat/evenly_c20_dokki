@@ -1,5 +1,6 @@
 import 'package:evently_c20_dokki/core/config/app_config.dart';
 import 'package:evently_c20_dokki/core/l10n/app_localizations.dart';
+import 'package:evently_c20_dokki/ui/event_managment/event_managment_screen.dart';
 import 'package:evently_c20_dokki/ui/forget_password/forget_password_screen.dart';
 import 'package:evently_c20_dokki/ui/home/home_screen.dart';
 import 'package:evently_c20_dokki/ui/login/login_screen.dart';
@@ -55,6 +56,7 @@ class MyApp extends StatelessWidget {
           SignupScreen.routeName: (_) => SignupScreen(),
           HomeScreen.routeName: (_) => HomeScreen(),
           ForgetPasswordScreen.routeName: (_) => ForgetPasswordScreen(),
+          EventManagementScreen.routeName: (_) => EventManagementScreen(),
         },
         initialRoute: SplashScreen.routeName,
       ),

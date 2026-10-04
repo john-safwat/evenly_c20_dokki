@@ -1,6 +1,8 @@
 import 'package:evently_c20_dokki/core/config/app_config.dart';
 import 'package:evently_c20_dokki/core/l10n/app_localizations.dart';
+import 'package:evently_c20_dokki/core/utils/numbers_extension.dart';
 import 'package:evently_c20_dokki/core/utils/validators.dart';
+import 'package:evently_c20_dokki/core/utils/widget_extension.dart';
 import 'package:evently_c20_dokki/firebase/auth_service.dart';
 import 'package:evently_c20_dokki/ui/forget_password/forget_password_screen.dart';
 import 'package:evently_c20_dokki/ui/home/home_screen.dart';
@@ -47,7 +49,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     width: MediaQuery.sizeOf(context).width * .4,
                   ),
                 ),
-                SizedBox(height: 16),
+                16.verticalSpace,
                 Text(
                   locale.loginToYourAccount,
                   style: Theme.of(
@@ -161,10 +163,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Row(
                   children: [
                     Expanded(child: Divider()),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                      child: Text(locale.or),
-                    ),
+                    Text(locale.or).allPadding(16),
                     Expanded(child: Divider()),
                   ],
                 ),

@@ -33,5 +33,9 @@
   "passwordInvalid": "يجب ألا تقل كلمة المرور عن 8 أحرف وتحتوي على حرف كبير وحرف صغير ورقم ورمز خاص",
 
   "confirmPasswordRequired": "يرجى تأكيد كلمة المرور",
-  "passwordConfirmationMismatch": "كلمتا المرور غير متطابقتين"
+  "passwordConfirmationMismatch": "كلمتا المرور غير متطابقتين",
+
+  "home" : "الرئيسيه",
+  "favorite" : "المفضل",
+  "profile" : "الملف"
 }
